@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://wallpapers.com/images/hd/toys-background-qtmsuk8a0o42c7au.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    position: relative;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo claro */
+    border: 2px solid rgba(0, 0, 0, 0.1); /* Borda clara */
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    transition: all 0.5s ease-in-out;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333; /* Título com cor escura */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    width: 100%;
+}
+
+/* Tabela do formulário */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: rgba(240, 240, 240, 0.9); /* Fundo claro para a tabela */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form-table td {
+    padding: 12px 15px;
+    color: #333; /* Texto mais escuro para melhor legibilidade */
+    text-align: left;
+}
+
+.form-table label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-table input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Borda mais clara */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo mais claro nos inputs */
+    color: #333;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro para o botão */
+    color: #fff; /* Texto branco no botão */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.4s ease;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+a.button {
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.4s ease;
+}
+
+a.button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}

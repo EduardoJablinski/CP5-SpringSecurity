@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualizar Brinquedo</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style_brinquedo.css}">
+</head>
+<body>
+<section>
+    <div class="container">
+        <h1>Detalhes do Brinquedo</h1>
+        <table class="form-table">
+            <tr>
+                <td>ID:</td>
+                <td><span th:text="${brinquedo.id}"></span></td>
+            </tr>
+            <tr>
+                <td>Nome:</td>
+                <td><span th:text="${brinquedo.nome}"></span></td>
+            </tr>
+            <tr>
+                <td>Tipo:</td>
+                <td><span th:text="${brinquedo.tipo}"></span></td>
+            </tr>
+            <tr>
+                <td>Classificação:</td>
+                <td><span th:text="${brinquedo.classificacao}"></span></td>
+            </tr>
+            <tr>
+                <td>Tamanho:</td>
+                <td><span th:text="${brinquedo.tamanho}"></span></td>
+            </tr>
+            <tr>
+                <td>Preço:</td>
+                <td><span th:text="${brinquedo.preco}"></span></td>
+            </tr>
+        </table>
+        <a th:href="@{/brinquedos/edit/{id}(id=${brinquedo.id})}" class="button">Editar</a>
+        <a th:href="@{/brinquedos/delete/{id}(id=${brinquedo.id})}" class="button">Deletar</a>
+        <a th:href="@{/brinquedos}" class="button">Voltar à Lista</a>
+    </div>
+</section>
+</body>
+</html>
