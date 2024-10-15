@@ -22,7 +22,7 @@ Adicionamos também as bibliotecas Lombok, para simplificar a criação de códi
 <p>IntelliJ<p>
 
 <h2>Link do versionamento</h2>
-<p>https://exerciciorevisaojava2.onrender.com</p>
+<p>https://cp5-springsecurity-qx1o.onrender.com/</p>
 
 <h2>Funcionalidades</h2>
 <ul>
