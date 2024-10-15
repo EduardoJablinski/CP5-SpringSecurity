@@ -1,6 +1,11 @@
 # Etapa 1: Construção da aplicação
 FROM ubuntu:latest AS build
 
+# Instalar Maven e JDK
+RUN apt-get update && \
+    apt-get install -y maven openjdk-22-jdk && \
+    rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
 # Copiar o código fonte
