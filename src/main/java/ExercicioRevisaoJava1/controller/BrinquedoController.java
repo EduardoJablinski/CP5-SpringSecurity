@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import ExercicioRevisaoJava1.model.Brinquedo;
 import ExercicioRevisaoJava1.repository.BrinquedoRepositorio;
 
-@CrossOrigin(origins = "https://exerciciorevisaojava2.onrender.com")
+@CrossOrigin(origins = "https://cp5-springsecurity-qx1o.onrender.com")
 @Controller
 @RequestMapping("/brinquedos")
 public class BrinquedoController {
