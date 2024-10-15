@@ -1,5 +1,5 @@
 # Etapa 1: Construção da aplicação
-FROM maven:3.8.6-openjdk-22 AS build
+FROM ubuntu:latest AS build
 
 WORKDIR /app
 
